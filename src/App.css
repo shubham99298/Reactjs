@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.projectcard{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px;
+  
+
+}
