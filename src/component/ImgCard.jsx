@@ -31,17 +31,17 @@ const handledelete=()=>{
 }
   return (
     <div>
-     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={val.imgurl} style={{ width:"18rem" , height:"15rem"}}  />
+     <Card style={{ width: '18rem' , height:'28rem',margin:"10px", boxShadow:"  1px 1px 5px gray "  }}>
+      <Card.Img variant="top" src={val.imgurl} style={{ width:"18rem" , height:"15rem"    }}  />
       <Card.Body>  
         <Card.Title>{val.title}</Card.Title>
-        <Card.Text style={{ height:"7rem"}}>
+        <Card.Text >
           
           {val.desc}
 
          
         </Card.Text>
-        <Button  className='btn' onClick={handleclick} variant="primary">ADD</Button>{count}
+        <Button  className='btn' onClick={handleclick}  variant="primary">ADD</Button>{count}
         <Button  className='btn' onClick={handledelete} variant="primary">DELETE</Button>
 
       </Card.Body>
