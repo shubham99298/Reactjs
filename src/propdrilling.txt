@@ -1,0 +1,2 @@
+1.define callback function inside parent component
+2.
