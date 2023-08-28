@@ -7,8 +7,7 @@ const Dcomponent = () => {
   return (
     <div>
       Dcomponent
-      <p>property recieved from grandarent :- 
-      {sharedData}
+      <p>property recieved from grandarent :-{sharedData}
       </p>
     </div>
   )
