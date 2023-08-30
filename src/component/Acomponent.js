@@ -10,7 +10,7 @@ const Acomponent = () => {
     <DataContext.Provider value={vashihathnama}>
         <div>
         Acomponent
-       
+     
       <Bcomponent/>
     </div>
     </DataContext.Provider>
