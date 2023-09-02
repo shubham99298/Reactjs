@@ -15,6 +15,6 @@ const Acomponent = () => {
     </div>
     </DataContext.Provider>
   )
-}
+} 
 
 export default Acomponent

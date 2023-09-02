@@ -20,7 +20,7 @@ import Acomponent from './component/Acomponent';
 //     id={val.id  }
 //     title={val.title}
 //     imgurl={val.image}
-    // desc={val.description} 
+//     desc={val.description} 
 //     />
 //   )
 // }
@@ -51,15 +51,15 @@ function App() {
   //         <NavBar/>
   //         <HomeCarousel/>
 
-  //         <div className="projectcard"> 
-  //         {
-  //           Data.map((val,index) => (
-  //             <div key={val.id} className='col-md-3'>
-  //             {nCard(val)} 
-  //             </div>
-  //           ))
-  //         }
-  //         </div>
+          // <div className="projectcard"> 
+          // {
+          //   Data.map((val,index) => (
+          //     <div key={val.id} className='col-md-3'>
+          //     {nCard(val)} 
+          //     </div>
+          //   ))
+          // }
+          // </div>
           
   //         <Off/>
   //   </div>
