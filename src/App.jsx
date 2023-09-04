@@ -2,7 +2,7 @@
 import './App.css';
 import Acomponent from './component/Acomponent';
 
-import Parentcomponent from './component/Parentcomponent';
+// import Parentcomponent from './component/Parentcomponent';
 
 // import NavBar from './component/NavBar';
 // import HomeCarousel from './component/HomeCarousel';
